@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Mont";
+  src: url("../fonts/Montserrat-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "MontL";
+  src: url("../fonts/Montserrat-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "MontB";
+  src: url("../fonts/Montserrat-Bold.woff") format("woff");
+}
+
+body {
+  font-family: "Mont" !important;
+}
+
+.header {
+  background: #eaebef;
+}
+.header_espacio {
+  padding: 40px 0;
+}
+
+.logo {
+  width: 90%;
+}
+
+.servicios h1 {
+  font-size: 30px;
+  font-family: "MontB" !important;
+}
+
+.p-servicios {
+  font-family: "MontL" !important;
+  font-size: 14px;
+}
+
+.i-servicios {
+  width: 90%;
+  padding-top: 10px;
+  overflow: hidden;
+  margin-left: -50px;
+}
+.negrita {
+  font-weight: bold;
+  font-family: "MontB" !important;
+}
+.l-servicios {
+  font-family: "MontL" !important;
+  font-size: 14px;
+  margin-left: -20px;
+}
+
+.mantenimiento,
+.energia,
+.calidad {
+  background: #b2c454;
+  padding: 80px 0;
+}
+.energia {
+  background: #00acd9;
+}
+
+.calidad {
+  background: #e9a135;
+}
+
+.sin {
+  padding: 0;
+}
+
+.footer {
+  background-image: url(../img/footer.png);
+  background-size: cover;
+}
+
+.footer-d {
+  font-weight: bold;
+  font-family: "MontB" !important;
+  line-height: 1;
+}
+
+.t-mantenimiento {
+  font-weight: bold;
+  font-family: "MontB" !important;
+  color: #b2c454;
+  line-height: 1;
+  font-size: 30px;
+  margin-left: 10%;
+}
+
+.p-mantenimiento {
+  font-family: "MontB" !important;
+  font-size: 14px;
+  margin: 50px 0 0 20px;
+}
+
+.seguridad {
+  background: #00acd9;
+  color: #fff;
+}
+
+.p-seguridad {
+  font-weight: bold;
+  font-family: "MontB" !important;
+  font-size: 14px;
+  line-height: 1;
+  padding-left: 25px;
+  margin-bottom: 30px;
+}
+
+.lista-mantenimiento {
+  font-size: 14px;
+}
+.engranaje {
+  padding-bottom: 20px;
+}
+
+.img-div-1 {
+  max-width: 500px;
+  width: 100%;
+}
+
+.img-div-2 {
+  /* max-width: 500px; */
+  width: 80%;
+}
+
+.row-div-1 {
+  background-color: #eaebef;
+}
+.row-div-2 {
+  background-color: #00acd9;
+  color: white;
+}
+
+p > ul > li {
+  text-decoration: none;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.w-100 {
+  margin: 0;
+}
+.div-verde {
+  background-color: #b2c454;
+  color: white;
+  width: fit-content;
+  padding: 10px 25px;
+  border-radius: 0.8em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: "MontB" !important;
+}
+
+.div-azul {
+  background-color: #00acd9;
+  color: white;
+  width: fit-content;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: "MontB" !important;
+}
+
+.let-azul {
+  color: #00acd9;
+  font-weight: 550;
+}
