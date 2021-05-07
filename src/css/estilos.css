@@ -176,3 +176,17 @@ p > ul > li {
   color: #00acd9;
   font-weight: 550;
 }
+
+@media (max-width: 576px) {
+  .ii-servicios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px auto;
+    width:50%;
+    padding-top: 20px;;
+  }
+  .img-tamano{
+    width: 80%;
+  }
+}
