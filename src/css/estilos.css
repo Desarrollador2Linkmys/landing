@@ -177,7 +177,35 @@ p > ul > li {
   font-weight: 550;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#myHeader{
+    z-index: 999;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#logo_fijo{
+    padding:15px 15px;
+    max-width: 320px;
+}
+
 @media (max-width: 576px) {
+
+  #myHeader{
+    z-index: 999;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
   .ii-servicios{
     display: flex;
     align-items: center;
@@ -190,3 +218,5 @@ p > ul > li {
     width: 80%;
   }
 }
+
+
