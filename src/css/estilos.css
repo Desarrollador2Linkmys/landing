@@ -219,4 +219,44 @@ p > ul > li {
   }
 }
 
+.image1 {
+  position:relative;
+  background: url(../img/img_1.jpg) no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.image2 {
+  position:relative;
+  background: url(../img/img_2.jpg) no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.image3 {
+  position:relative;
+  background: url(../img/img_3.jpg) no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.image4 {
+  position:relative;
+  background: url(../img/img_4.jpg) no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.image5 {
+  position:relative;
+  background: url(../img/img_5.jpg) no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+}
+
 
