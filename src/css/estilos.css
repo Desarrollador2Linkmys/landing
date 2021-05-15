@@ -79,6 +79,7 @@ body {
   font-weight: bold;
   font-family: "MontB" !important;
   line-height: 1;
+  font-size: 16px;
 }
 
 .t-mantenimiento {
@@ -259,4 +260,28 @@ p > ul > li {
   min-height: 500px;
 }
 
+.correo{
+  width:60%;
+}
 
+.datos{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width:100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.veite{
+width:40%;
+}
+
+.tel1{
+  width:22%;
+}
+
+.tel2{
+  width:25.5%;
+}
