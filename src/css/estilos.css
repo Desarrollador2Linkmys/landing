@@ -26,6 +26,17 @@ body {
   width: 90%;
 }
 
+.serviciosBK {
+  background:  url(../img/servicosBK.jpg);
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .servicios h1 {
   font-size: 30px;
   font-family: "MontB" !important;
@@ -149,6 +160,7 @@ p > ul > li {
   margin: 0;
 }
 .div-verde {
+  text-align: left;
   background-color: #b2c454;
   color: white;
   width: fit-content;
@@ -163,11 +175,23 @@ p > ul > li {
 
 .div-azul {
   background-color: #00acd9;
-  color: white;
+  color: #fff;
   width: fit-content;
   padding: 10px 25px;
   border-radius: 50px;
   font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: "MontB" !important;
+}
+.div-blanco {
+  background-color: #fff;
+  color: #0074b6;
+  width: fit-content;
+  padding: 10px 25px;
+  border-radius: 0.8em;
+  font-weight: bold;
+  margin-top: 20px;
   margin-bottom: 20px;
   font-size: 14px;
   font-family: "MontB" !important;
@@ -292,4 +316,23 @@ width:40%;
 
 .textF{
   text-align: left;
+}
+
+.lista-final{
+  color: #fff;
+  text-align: left;
+}
+
+.blanco{
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+}
+.lista-azul{
+  color: #fff;
+  text-align: left;
+  padding: 20px 50px;
+  background: #038ec6;
+  border-radius: 25px;
+  margin: -15px 0 0 0;
 }
