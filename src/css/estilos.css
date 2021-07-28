@@ -117,6 +117,11 @@ body {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
+
+.sinP{
+  padding-right:0 !important;
+  padding-left: 0 !important;
+}
 .p-mantenimiento {
   font-family: "MontB" !important;
   font-size: 14px;
